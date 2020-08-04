@@ -1,0 +1,22 @@
+<div class="mainer">
+    <div id="view" class="scroll" xmlns:v-on="http://www.w3.org/1999/xhtml">
+        <div class="section" style>
+            <ui-section>
+                <div class="header greenColor">測試1</div>
+                <ui-prop name="访问网址">
+                    <div class="flex-1">
+                        <ui-checkbox v-value="isChecked" @change="checkConfirm">checkbox</ui-checkbox>
+                    </div>
+
+
+                </ui-prop>
+
+                <ui-prop name="隱藏節點2" style="height:50px;">
+                    <ui-node v-value="execNode" class="flex-1" type="cc.Node" typename="Node" droppable="node">
+                    </ui-node>
+                </ui-prop>
+            </ui-section>
+        </div>
+
+    </div>
+</div>

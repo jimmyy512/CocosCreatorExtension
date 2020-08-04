@@ -1,0 +1,25 @@
+{
+    "name": "hello-world",
+    "version": "0.0.1",
+    "description": "一份简单的扩展包",
+    "author": "Cocos Creator",
+    "main": "main.js",
+    "main-menu": {
+        "Hello/Cool": {
+            "message": "hello-world:cool"
+        },
+        "Hello/Test": {
+            "message": "hello-world:test"
+        }
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "AvatarTool",
+        "width": 600,
+        "height": 600,
+        "min-height": 400,
+        "min-width": 400
+    },
+    "scene-script": "sceneWatch.js"
+}
